@@ -3,4 +3,5 @@
     height: 35px;
     background-image: linear-gradient(to right,blue, purple, rgb(224, 28, 119));
     text-align: center;
+    border-radius: 5px;
 }
