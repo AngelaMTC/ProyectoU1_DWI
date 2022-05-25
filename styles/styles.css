@@ -1,7 +1,19 @@
 .gradient {
     color: white;
     height: 35px;
-    background-image: linear-gradient(to right,blue, purple, rgb(224, 28, 119));
+    background-image: linear-gradient(to right, blue, purple, rgb(224, 28, 119));
     text-align: center;
     border-radius: 5px;
+}
+
+body {
+    position: absolute;
+    height: 500px;
+    background-image: url('../images/image.jpeg');
+    /* border-radius: 40px; */
+    border-top-left-radius: 40px 40px;
+    background-repeat: no-repeat;
+    background-position-x:right;
+    /* background-position-y:; */
+    background-size: 50%;
 }
